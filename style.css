@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'BadScript';
+    src: url('assets/fonts/BadScript-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,35 +12,39 @@
     text-decoration: none;
 }
 
+.myFont {
+    font-family: 'BadScript', cursive, sans-serif;
+}
+
+/* Barre de navigation ---------------------------------------*/
 .myLogo {
     width: 70px;
 }
-
 
 .nav-link, .dropdown-item {
     color: rgb(28, 129, 168);
     font-weight: 600;
 }
 
+.nav-item {
+    /* align-items: end; */
+    padding: 0 18px;
+}
+
 .nav-link:hover, .dropdown-item:hover, .ouvert {
     color: rgb(12, 9, 180);
 }
 
-.nav-item {
-    /* align-items: end; */
-    padding: 0 20px;
-}
-
-.myBg2 {
-    background: url(/assets/img/dessinClean1.jpg) no-repeat ;
+/* Page d'accueil ---------------------------------------------*/
+.myBg {
+    background: url(assets/img/dessinClean1.jpg) no-repeat ;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
-.titre {
-    font-family: 'Bad Script', cursive, sans-serif;
-    font-size: 5rem;
+.bigTitle {
+    font-size: 4rem;
 }
 
 .grosBouton {
@@ -64,10 +75,22 @@
     background-color: rgba(28, 128, 168, 0.63);
 }
 
-/* @media screen and(max-width:768px){
-    .titre {
-        font-size: 1rem;
+.secondTitle {
+    font-size: 2rem;
+    color: rgb(28, 129, 168);
+    padding: 0 20px;
+
+}
+
+
+/* Media queries ----------------------------------------------- */
+@media screen and (min-width:768px){
+    .bigTitle {
+        font-size: 5rem;
     }
 
-} */
+    /* .secondTitle{
+        padding: 0 20px;
+    } */
+}
     

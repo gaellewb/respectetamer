@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-<!-- Bootsrap en local ne marche pas .. ? -->
-<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-<!-- Bootstrap cdn  -->
+    <meta name="description" content="Le nettoyage de plages">
+    <meta name="keywords" content="plage, mer, pollution, plastique, nettoyage, environnement">
+
+    <title>Accueil - Respecte ta mer</title>
+
+<!-- Mon icone Favicon -->
+
+<!-- appel de Bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
-<!-- CSS -->
+<!-- appel du CSS -->
     <link rel="stylesheet" href="style.css">
-
-<!-- Police lien : -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-light shadow myBg">
+        <nav class="navbar navbar-expand-md bg-light shadow">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img class="myLogo" src="assets/img/logo2.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,31 +74,33 @@
         </nav>
     </header>
     <main >
-            <div class="container-fluid myBg2">
-                <h1 class=" pt-5 text-center titre">Respecte ta MER</h1>
-
+            <div class="container-fluid myBg mb-5">
+            <!-- container-fluid pour prendre toute la largeur de l'écran -->
+                <h1 class=" pt-5 text-center bigTitle myFont">Respecte ta MER</h1>
                 <div class="row d-flex">
-                    <div class="mt-5 offset-sm-7 col-sm-2 ">
-                        <a class="grosBouton" href="agir/benevol.html" type="button">Actualités</a>
-                    </div>
-                    <div class="mt-5 col-sm-2">
+                    <div class="mt-5 offset-6 col-1 col-md-6 offset-lg-6 col-lg-3 col-xxl-2">
                         <a class="grosBouton" href="agir/benevol.html" type="button">Devenez bénévole</a>
                     </div>
-                    
+                    <div class="mt-5 offset-6 col-md-6 offset-lg-0 col-lg-2 col-xxl-2">
+                        <a class="grosBouton" href="informer/news.html" type="button">Actualités </a>
+                    </div>                   
                 </div>
             </div>
 
-            <div class="container">
-                <div class="card mt-5 mb-5">
+            <div>
+                <p class="myFont secondTitle text-center">" 80 % des déchets en mer viennent de la terre "</p>
+            </div>
+
+            <div class="container d-flex">
+                <div class="card mt-4 mb-5">
                     <div class="card-body">
                         <h5 class="card-title">Tempête sur les plages de Marseille</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="" class="petitBouton" role="button">Lire l'article</a>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                        <img src="assets/img/plastic2.jpg" class="card-img-bottom" alt="...">
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea fugit dicta autem rerum, illo ducimus nisi sunt distinctio doloribus, nihil praesentium pariatur aspernatur doloremque eos est nemo enim cupiditate velit!</p>
+                        <a href="informer/news.html" class="petitBouton d-flex justify-content-end" role="button">Lire l'article</a>
+                        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
                     </div>
-
+                    <img src="assets/img/plastic2.jpg" class="card-img-bottom" alt="...">
+                </div>
             </div>
         
 
@@ -111,12 +111,22 @@
 
     
     </main>
+    <footer>
+        <div class="container-fluid row">
+            <div class="offset-1 col-10">
+                <hr>
+            </div>
+        </div>
+
+
+
+
+    </footer>
 <!-- jQuery en local -->
     <sript src="node_modules/jquery/dist/jquery.min.js"></sript>
 <!-- Bootstrap cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-<!-- Bootstrap en local ne marche pas .. ?  -->   
-    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+<!-- appel du JavaScript -->
     <script src="js/script.js"></script>
     
 </body>
