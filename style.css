@@ -10,6 +10,7 @@
     padding: 0;
     /* box-sizing: border-box; */
     text-decoration: none;
+    color: #222;
 }
 
 .myFont {
@@ -40,6 +41,7 @@
     background: url(assets/img/dessinClean1.jpg) no-repeat ;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -80,6 +82,17 @@
     color: rgb(28, 129, 168);
     padding: 0 20px;
 
+}
+
+.appear {
+    opacity: 0;
+    transform: translateX(-300px);
+}
+
+.appear-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.5s;
 }
 
 
