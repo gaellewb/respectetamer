@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'BadScript';
-    src: url('assets/fonts/BadScript-Regular.ttf');
+    src: url('/assets/fonts/BadScript-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
@@ -39,7 +39,7 @@
 
 /* Page d'accueil ---------------------------------------------*/
 .myBg {
-    background: url(assets/img/dessinClean1.jpg) no-repeat ;
+    background: url(/assets/img/dessinClean1.jpg) no-repeat ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,76 +102,3 @@ a {
 .squelette {
     display: none;
 }
-
-
-
-
-/* Media queries ----------------------------------------------- */
-@media screen and (min-width:768px){
-    .bigTitle {
-        font-size: 5rem;
-    }
-
-    .squelette {
-        display :block
-    }
-
-.wrapper {
-    display: grid;
-    grid-template-columns: auto auto 30% auto auto auto;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px;
-}
-
-.one {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.two {
-    width: 100%;
-    grid-column: 2;
-    grid-row: 1 / 6;
-}
-.three {
-    width: 100%;
-    grid-column: 3;
-    grid-row: 1;
-}
-.four {
-    grid-column:4;
-    grid-row: 1;
-}
-.five {
-    grid-column: 5;
-    grid-row: 1;
-}
-.six {
-    grid-column: 6;
-    grid-row: 1;
-}
-
-.seven {
-    grid-column: 3 /7;
-    grid-row: 2;
-    align-self: end;
-}
-.height {
-    grid-column: 3/7;
-    grid-row: 3;
-    align-self: center;
-}
-.nine {
-    grid-column: 3/7;
-    grid-row: 4;
-}
-/* .ten {
-    grid-column: 3/7;
-    grid-row: 5;
-} */
-
-
-    /* .secondTitle{
-        padding: 0 20px;
-    } */
-}
-    

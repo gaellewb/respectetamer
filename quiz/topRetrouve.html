@@ -15,14 +15,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
 <!-- appel du CSS -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
 
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-light shadow">
             <div class="container">
-                <a class="navbar-brand" href="/index.html"><img class="myLogo" src="/assets/img/turtle2.png" alt=""></a>
+                <a class="navbar-brand" href="/index.html"><img class="myLogo" src="/assets/img/turtle2.png" alt="Logo tortue bleue"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -53,9 +54,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quiz</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/quiz/topRamasse.html">Devenir bénévole</a></li>
-                                    <li><a class="dropdown-item ouvert" href="/quiz/topRetrouve.html">Défis : un déchet par jour</a></li>
-                                    <li><a class="dropdown-item" href="/quiz/topPollueurs.html">Zéro déchet plastique en mer</a></li>
+                                    <li><a class="dropdown-item" href="/quiz/topRamasse.html">Top 10 des déchets sur les plages</a></li>
+                                    <li><a class="dropdown-item ouvert" href="/quiz/topRetrouve.html">Top 10 des déchets en mer</a></li>
+                                    <li><a class="dropdown-item" href="/quiz/topPollueurs.html">Top 5 des pollueurs de plastique</a></li>
                                 </ul>
                         </li>
                         <li class="nav-item">
@@ -74,10 +75,72 @@
         </nav>
     </header>
     <main >
+    <footer>
+        <hr>
+        <div class="container mb-3">
+            <div class="row mb-2 wrapper"> 
+                <div class="col-2 one"> 
+                    <a href="/index.html"><img src="/assets/img/turtleIcone.png" alt="Petite icône de tortue bleue" class="iconeIcone"></a>
+                </div>
+                <div class=" squelette two">
+                    <p>
+                    <a href="/informer/news.html">Actualités</a><br>
+                    <a href="/informer/why.html">Ramasser des déchets</a><br>
+                    <a href="/informer/life.html">Durée de vie des déchets</a><br>
+                    <a href="/informer/actions.html">Actions de luttes nationales</a><br>
+                    <a href="/agir/benevol.html">Devenir bénévole</a><br>
+                    <a href="/agir/defis.html">Défis : un déchet par jour</a><br>
+                    <a href="/agir/zeroTrash.html">Zéro déchet plastique</a><br>
+                    <a href="/agir/artCampus.html">Fresques, l'art campus</a><br>
+                    <a href="/quiz/topRamasse.html">Top 10, déchets sur les plages</a><br>
+                    <a href="/quiz/topRetrouve.html">Top 10, déchets en mer</a><br>
+                    <a href="/quiz/topPollueurs.html">Top 5, pollueurs de plastique</a><br>
+                    <a href="/agenda.html">Agenda</a><br>
+                    </p>
+                </div>
+                <div class="col-4 grasBleu text-center three">
+                    <a href="/contact.html">Contact</a>
+                </div>
+                <div class="col-2 four">
+                    <a href=""><img src="/assets/img/logofb.png" alt="petit logo Facebook"></a>
+                </div>
+                <div class="col-2 five">
+                    <a href=""><img src="/assets/img/logoinsta.jpg" alt="petit logo Instagram"></a>
+                </div>                
+                <div class="col-2 six">
+                    <a href=""><img src="/assets/img/logotwitter.png" alt="petit logo Twitter"></a>
+                </div>
 
+                <div class="col-12 mt-2 mb-1 seven text-center">
+                    <label for="email">- Inscription à la Newsletter -</label>                 
+                </div>
+                <div class="col-12 mb-2 text-center height">
+                    <input type="email" name="email" id="email" placeholder="votre email">
+                </div>
+                <div class="col-12 text-center nine">
+                    <input class="petitBouton" type="submit" value="S'inscrire" name="email">
+                </div>
+            </div>
 
-
-
+            <hr>
+            <div class="row text-center">
+                <div class="col-3 ten">
+                    <a href="">FAQ</a>
+                </div>
+                <div class="col-1">
+                    -
+                </div>
+                <div class="col-3">
+                    <a href="">Copyright</a>
+                </div>
+                <div class="col-1">
+                    -
+                </div>
+                <div class="col-4">
+                    <a href="">Mentions Légales</a>
+                </div>
+            </div>             
+        </div>
     </footer>
 <!-- jQuery en local -->
     <sript src="/node_modules/jquery/dist/jquery.min.js"></sript>
