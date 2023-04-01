@@ -20,5 +20,4 @@ let hauteur;
             // console.log('affichage du texte');
             appear2.classList.add('appear-visible');
         }
-
     }

@@ -99,16 +99,19 @@ a {
     color: rgb(28, 129, 168);
 }
 
-.bordureDroite {
-    border-right: solid rgb(28, 129, 168);
+.squelette {
+    display: none;
 }
-
 
 /* Media queries ----------------------------------------------- */
 @media screen and (min-width:768px){
     .bigTitle {
         font-size: 5rem;
     }
+
+.squelette {
+    display :block
+}
 
     /* .secondTitle{
         padding: 0 20px;
