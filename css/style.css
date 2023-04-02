@@ -14,7 +14,7 @@
     color: #222;
 }
 
-.myFont {
+.myFont, .bigTitle {
     font-family: 'BadScript', cursive, sans-serif;
 }
 
@@ -62,6 +62,7 @@
 
 .grosBouton:hover {
     background-color: rgba(28, 128, 168, 0.63);
+    transition: 0.2s;
 }
 
 .petitBouton {
@@ -71,6 +72,7 @@
     color: white;
     font-size: 1rem;
     text-align: center;
+    transition: 0.2s;
 }
 
 .petitBouton:hover {
@@ -95,14 +97,25 @@
     transition: 0.5s;
 }
 
-a {
+a, .fa-brands {
     color: rgb(28, 129, 168);
 }
 
-.squelette {
+.squelette, .copyright{
     display: none;
 }
 
-.two {
+.two, .legal {
     font-size: small;
+}
+
+.fa-brands:hover {
+    color: rgb(12, 9, 180);
+}
+
+.fa-brands:hover {
+    transition: 0.2s;
+}
+footer {
+    background-color: rgb(236, 233, 229);
 }

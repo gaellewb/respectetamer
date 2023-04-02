@@ -10,13 +10,23 @@
     <title>Accueil - Respecte ta mer</title>
 
 <!-- Mon icone Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
 
 <!-- appel de Bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
-<!-- appel du CSS -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/mediaqueries.css">
+<!-- appel des pages CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+<!-- appel de Font Awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
@@ -53,11 +63,11 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quiz</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/quiz/topRamasse.html">Top 10 des déchets sur les plages</a></li>
-                                <li><a class="dropdown-item" href="/quiz/topRetrouve.html">Top 10 des déchets en mer</a></li>
-                                <li><a class="dropdown-item" href="/quiz/topPollueurs.html">Top 5 des pollueurs de plastique</a></li>
-                            </ul>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="quiz/topRamasse.html">Top 10 des déchets sur les plages</a></li>
+                                    <li><a class="dropdown-item" href="quiz/topRetrouve.html">Top 10 des déchets en mer</a></li>
+                                    <li><a class="dropdown-item" href="quiz/topPollueurs.html">Top 5 des pollueurs de plastique</a></li>
+                                </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ouvert" aria-current="page" href="agenda.html">Agenda</a>
@@ -75,71 +85,83 @@
         </nav>
     </header>
     <main >
+        <div class="m-4 p-5">
+            <div class="text-center">
+                <h1 class="bigTitle mb-4">Work in progress</h1>
+            </div>
+            <div class="text-center">
+                <video class="videoSable" src="assets/video/pageConstruction.mp4" muted loop autoplay height="100px"></video>
+            </div>
+        </div>
+        
+    </main>
     <footer>
         <hr>
-        <div class="container mb-3">
-            <div class="row mb-2 wrapper"> 
-                <div class="col-2 one"> 
-                    <a href="index.html"><img src="assets/img/turtleIcone.png" alt="Petite icône de tortue bleue" class="iconeIcone"></a>
-                </div>
-                <div class=" squelette two">
-                    <p>
-                    <a href="informer/news.html">Actualités</a><br>
-                    <a href="informer/why.html">Ramasser des déchets</a><br>
-                    <a href="informer/life.html">Durée de vie des déchets</a><br>
-                    <a href="informer/actions.html">Actions de luttes nationales</a><br>
-                    <a href="agir/benevol.html">Devenir bénévole</a><br>
-                    <a href="agir/defis.html">Défis : un déchet par jour</a><br>
-                    <a href="agir/zeroTrash.html">Zéro déchet plastique</a><br>
-                    <a href="agir/artCampus.html">Fresques, l'art campus</a><br>
-                    <a href="quiz/topRamasse.html">Top 10, déchets sur les plages</a><br>
-                    <a href="quiz/topRetrouve.html">Top 10, déchets en mer</a><br>
-                    <a href="quiz/topPollueurs.html">Top 5, pollueurs de plastique</a><br>
-                    <a href="agenda.html">Agenda</a><br>
-                    </p>
-                </div>
-                <div class="col-4 grasBleu text-center three">
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="col-2 four">
-                    <a href=""><img src="assets/img/logofb.png" alt="petit logo Facebook"></a>
-                </div>
-                <div class="col-2 five">
-                    <a href=""><img src="assets/img/logoinsta.jpg" alt="petit logo Instagram"></a>
-                </div>                
-                <div class="col-2 six">
-                    <a href=""><img src="assets/img/logotwitter.png" alt="petit logo Twitter"></a>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mb-2 wrapper"> 
+                    <div class="col-2 one"> 
+                        <a href="index.html"><img src="assets/img/turtleIcone.png" alt="Petite icône de tortue bleue" class="iconeIcone"></a>
+                    </div>
+                    <div class="squelette two">
+                        <p>
+                        <a href="informer/news.html">Actualités</a><br>
+                        <a href="informer/why.html">Ramasser des déchets</a><br>
+                        <a href="informer/life.html">Durée de vie des déchets</a><br>
+                        <a href="informer/actions.html">Actions de luttes nationales</a><br>
+                        <a href="agir/benevol.html">Devenir bénévole</a><br>
+                        <a href="agir/defis.html">Défis : un déchet par jour</a><br>
+                        <a href="agir/zeroTrash.html">Zéro déchet plastique</a><br>
+                        <a href="agir/artCampus.html">Fresques, l'art campus</a><br>
+                        <a href="quiz/topRamasse.html">Top 10, déchets sur les plages</a><br>
+                        <a href="quiz/topRetrouve.html">Top 10, déchets en mer</a><br>
+                        <a href="quiz/topPollueurs.html">Top 5, pollueurs de plastique</a><br>
+                        <a href="agenda.html">Agenda</a><br>
+                        </p>
+                    </div>
+                    <div class="col-4 grasBleu text-center three">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="col-2 four">
+                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    </div>
+                    <div class="col-2 five">
+                        <a href=""><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+                    </div>                
+                    <div class="col-2 six">
+                        <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    </div>
+
+                    <div class="col-12 mt-2 mb-1 seven text-center">
+                        <label for="email">- Inscription à la Newsletter -</label>                 
+                    </div>
+                    <div class="col-12 mb-2 text-center height">
+                        <input type="email" name="email" id="email" placeholder="votre email">
+                    </div>
+                    <div class="col-12 text-center nine">
+                        <input class="petitBouton" type="submit" value="S'inscrire" name="email">
+                    </div>
                 </div>
 
-                <div class="col-12 mt-2 mb-1 seven text-center">
-                    <label for="email">- Inscription à la Newsletter -</label>                 
-                </div>
-                <div class="col-12 mb-2 text-center height">
-                    <input type="email" name="email" id="email" placeholder="votre email">
-                </div>
-                <div class="col-12 text-center nine">
-                    <input class="petitBouton" type="submit" value="S'inscrire" name="email">
-                </div>
+                <hr>
+                <div class="row text-center legal">
+                    <div class="col-2 col-md-3 offset-xl-2 col-xl-2 ten">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                    <div class="col-1">
+                        -
+                    </div>
+                    <div class="col-4 col-md-3 col-xl-2">
+                        <p><span class="copyright">Copyright</span> &#169; 2023 GaelleW</p>
+                    </div>
+                    <div class="col-1">
+                        -
+                    </div>
+                    <div class="col-4 col-xl-2">
+                        <a href="mentions.html">Mentions Légales</a>
+                    </div>
+                </div>             
             </div>
-
-            <hr>
-            <div class="row text-center">
-                <div class="col-3 offset-lg-2 col-lg-2 ten">
-                    <a href="faq.html">FAQ</a>
-                </div>
-                <div class="col-1">
-                    -
-                </div>
-                <div class="col-3 col-lg-2">
-                    <p>Copyright</p>
-                </div>
-                <div class="col-1">
-                    -
-                </div>
-                <div class="col-4 col-lg-2">
-                    <a href="mentions.html">Mentions Légales</a>
-                </div>
-            </div>             
         </div>
     </footer>
 
@@ -149,6 +171,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <!-- appel du JavaScript -->
     <script src="js/script.js"></script>
-    
+
 </body>
 </html>

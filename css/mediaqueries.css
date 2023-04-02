@@ -8,102 +8,81 @@
         display :block
     }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: auto auto 30% auto auto auto;
-    grid-template-rows: 50px 50px 50px 50px 50px;
-}
+/* pour l'afficher sur une seule ligne */
+    .copyright {
+        display: inline-block;
+    }
 
-.one {
-    width: 100%;
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-    align-self: end;
-}
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto 30% auto auto auto;
+        grid-template-rows: 50px 50px 50px 50px 50px;
+    }
 
-.two {
-    width: 100%;
-    grid-column: 2;
-    grid-row: 1 / 5;
-}
-.three {
-    width: 100%;
-    grid-column: 4/7;
-    grid-row: 2;
-    align-self: end;
-}
-.four {
-/*pour prendre 100% de la case grid */
-    width: 100%;
-    grid-column:4;
-    grid-row: 1;
-/* aligne horizontalement à la fin */
-    text-align: end;
-    align-self: end;
-}
-.five {
-    width: 100%;
-    grid-column: 5;
-    grid-row: 1;
-/* aligne horizontalement au milieu */
-    text-align: center;
-    align-self: end;
-}
-.six {
-    width: 100%;
-    grid-column: 6;
-    grid-row: 1;
-/* aligne horizontalement au début */
-    text-align: start;
-    align-self: end;
-}
+    .one {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        align-self: end;
+    }
 
-.seven {
-    grid-column: 3;
-    grid-row: 1;
-/* aligneverticalement en bas */
-    align-self: end;
-}
-.height {
-    grid-column: 3;
-    grid-row: 2;
-/* aligneverticalement au milieu*/
-    align-self: center;
-}
-.nine {
-    grid-column: 3;
-    grid-row: 3;
-}
-/* .ten {
-    grid-column: 5/6;
-    grid-row: 4;
-} */
+    .two {
+        width: 100%;
+        grid-column: 2;
+        grid-row: 1 / 5;
+    }
+    .three {
+        width: 100%;
+        grid-column: 4/7;
+        grid-row: 2;
+        align-self: end;
+    }
+    .four {
+    /*pour prendre 100% de la case grid */
+        width: 100%;
+        grid-column:4;
+        grid-row: 1;
+    /* aligne horizontalement à la fin */
+        text-align: end;
+        align-self: end;
+    }
+    .five {
+        width: 100%;
+        grid-column: 5;
+        grid-row: 1;
+    /* aligne horizontalement au milieu */
+        text-align: center;
+        align-self: end;
+    }
+    .six {
+        width: 100%;
+        grid-column: 6;
+        grid-row: 1;
+    /* aligne horizontalement au début */
+        text-align: start;
+        align-self: end;
+    }
 
-
-    /* .secondTitle{
-        padding: 0 20px;
-    } */
-}
-
-/* @media screen and (min-width:1200px){
     .seven {
-        grid-column: 3 /4;
-        grid-row: 3;
-        align-self: start; */
-/* aligne verticalement à la fin et important pour passer sur Bootstrap */
-        /* text-align: end!important;
+        grid-column: 3;
+        grid-row: 1;
+    /* aligneverticalement en bas */
+        align-self: end;
     }
     .height {
-        grid-column: 4/5;
-        grid-row: 3;
-        text-align: start!important;
+        grid-column: 3;
+        grid-row: 2;
+    /* aligneverticalement au milieu*/
+        align-self: center;
     }
     .nine {
-        grid-column: 5/6;
+        grid-column: 3;
         grid-row: 3;
-        align-self: start;
-        text-align: start!important;
-        margin-top: 5px;
-    } 
-} */
+    }
+
+    .videoSable {
+        height: 250px;
+    }
+}
+
