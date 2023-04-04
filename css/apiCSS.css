@@ -25,7 +25,7 @@
 .box {
     width: 7rem;
     height: 7rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
