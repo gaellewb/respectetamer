@@ -5,7 +5,11 @@
 
 .btnMeteo {
     border-radius: 50px;
-    background-color: rgb(28, 129, 168);
+    background-color: rgb(28, 129, 168)!important;
+}
+
+.btnMeteo:hover {
+    background-color: rgba(28, 128, 168, 0.63)!important;
 }
 
 .fa-magnifying-glass {
@@ -17,6 +21,8 @@
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -28,24 +34,45 @@
     align-items: center;
     font-size: 1.5rem;
     color: white;
+    background-color: rgba(28, 129, 168, 0.75);
 }
 
 #city {
-    background-color: rgba(41, 128, 185, 0.75);
+    font-family: 'Badscript', sans-serif;
+    font-size: 3rem;
+    background-color: rgba(28, 129, 168, 0.50);
+    color: white;
 }
-#temp {
-    background-color: rgba(43, 78, 101, 0.75);
+
+.bgMeteo {
+    background-size: cover;
+    background-position: center;
+    background: no-repeat;
 }
-#humidity {
-    background-color: rgba(52, 152, 219, 0.75);
+
+i{
+    color: rgb(12, 9, 180);
 }
-#wind {
-    background-color: rgba(141, 148, 154, 0.75);
+
+.clear {
+    background-image:url(../assets/img/clear.jpg);
 }
-#weather {
-    background-color: rgba(87, 160, 223, 0.75);
+.rain {
+    background-image:url(../assets/img/pluie.jpg);
 }
 
 .clouds {
     background-image:url(../assets/img/nuages.jpg);
 }
+
+.snow {
+    background-image:url(../assets/img/snow.jpg);
+}
+
+.mist {
+    background-image:url(../assets/img/mistjpg);
+}
+.thunderstorm{
+    background-image:url(../assets/img/orage.jpg);
+}
+
