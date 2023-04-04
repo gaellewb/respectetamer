@@ -25,8 +25,11 @@ let apiCall = function (city) {
             document.querySelector('.description').innerHTML = capitalize(description);
 
 // le problème du background vient de là, ne marche que avec body :
-            // const test = document.getElementById('testouille');
-            document.querySelector('form.monAppli').className = condition.toLowerCase();
+            // document.body.className = (condition.toLowerCase());
+            // document.querySelector('.monFond').className = condition.toLowerCase();
+            // document.querySelector('.monFond').classList.remove(condition.toLowerCase());
+            // document.querySelector('.monFond').classList.add(condition.toLowerCase());
+            document.querySelector('.monFond').classList.add(condition.toLowerCase());
             })
         )
             .catch((err) => console.log('Erreur : ' + err));
@@ -40,5 +43,7 @@ let apiCall = function (city) {
         apiCall(ville);
     });
 
+
+
 // Appel par défaut au chargement de la page
-apiCall('toulon');
+apiCall('paris');

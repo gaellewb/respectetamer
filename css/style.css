@@ -86,7 +86,7 @@
 
 }
 
-.appear, .appear2 {
+.appear {
     opacity: 0;
     transform: translateX(-300px);
 }

@@ -8,8 +8,9 @@
         display :block
     }
 
-/* pour l'afficher sur une seule ligne */
+/* Footer */
     .copyright {
+        /* pour l'afficher sur une seule ligne */
         display: inline-block;
     }
 
@@ -81,8 +82,14 @@
         grid-row: 3;
     }
 
+/* Page en Construction */
     .videoSable {
         height: 250px;
+    }
+
+/* Page Contact */
+    #inputCity {
+        width: 100%;
     }
 }
 

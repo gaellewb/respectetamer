@@ -1,5 +1,4 @@
 #inputCity {
-    width: 100%;
     border-radius: 25px;
 }
 
@@ -17,8 +16,6 @@
 }
 
 .box-container {
-    width: 450px;
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,8 +23,9 @@
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

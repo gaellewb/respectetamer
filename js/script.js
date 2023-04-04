@@ -10,15 +10,11 @@ let hauteur;
 
     function apparationTexte(){
         hauteur = document.documentElement.scrollTop;
-        console.log(hauteur, 'nombre de pixels depuis le haut de la page');
+        // console.log(hauteur, 'nombre de pixels depuis le haut de la page');
 
         if (hauteur > 280) {
             // console.log('affichage du texte');
             appear.classList.add('appear-visible');
-        }
-        if (hauteur > 350) {
-            // console.log('affichage du texte');
-            appear2.classList.add('appear-visible');
         }
     };
 
