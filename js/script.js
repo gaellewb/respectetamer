@@ -21,3 +21,8 @@ let hauteur;
             appear2.classList.add('appear-visible');
         }
     };
+
+// Fonction pour mettre la première lettre en majuscule
+function capitalize(str){
+    return str[0].toUpperCase() + str.slice(1);
+};

@@ -1,0 +1,51 @@
+#inputCity {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.btnMeteo {
+    border-radius: 50px;
+    background-color: rgb(28, 129, 168);
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.box-container {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#city {
+    background-color: rgba(41, 128, 185, 0.75);
+}
+#temp {
+    background-color: rgba(43, 78, 101, 0.75);
+}
+#humidity {
+    background-color: rgba(52, 152, 219, 0.75);
+}
+#wind {
+    background-color: rgba(141, 148, 154, 0.75);
+}
+#weather {
+    background-color: rgba(87, 160, 223, 0.75);
+}
+
+.clouds {
+    background-image:url(../assets/img/nuages.jpg);
+}

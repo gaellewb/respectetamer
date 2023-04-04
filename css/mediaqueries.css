@@ -16,7 +16,7 @@
     .wrapper {
         display: grid;
         grid-template-columns: auto auto 30% auto auto auto;
-        grid-template-rows: 50px 50px 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px 50px 30px;
     }
 
     .one {
