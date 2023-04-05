@@ -1,6 +1,7 @@
 // Test pour voir si la page JS est bien appelée
 // console.log('connecté');
 
+// PAGE INDEX ----------------------------------
 window.addEventListener('scroll', apparationTexte)
     // console.log('defilement détécté');
 
@@ -18,7 +19,14 @@ let hauteur;
         }
     };
 
+
+
+// PAGE AGENDA -----------------------------------
+
+
 // Fonction pour mettre la première lettre en majuscule
 function capitalize(str){
     return str[0].toUpperCase() + str.slice(1);
 };
+
+
