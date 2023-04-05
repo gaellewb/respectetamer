@@ -2,6 +2,8 @@
 // console.log('connecté');
 
 // PAGE INDEX ----------------------------------
+
+// Apparition d'un texte au scroll
 window.addEventListener('scroll', apparationTexte)
     // console.log('defilement détécté');
 
@@ -21,8 +23,9 @@ let hauteur;
 
 
 
-// PAGE AGENDA -----------------------------------
 
+
+// PAGE AGENDA -----------------------------------
 
 // Fonction pour mettre la première lettre en majuscule
 function capitalize(str){
