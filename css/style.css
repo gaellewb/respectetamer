@@ -109,13 +109,14 @@ a, .fa-brands {
     font-size: small;
 }
 
+.fa-brands {
+    transition: 0.3s;
+}
+
 .fa-brands:hover {
     color: rgb(12, 9, 180);
 }
 
-.fa-brands:hover {
-    transition: 0.2s;
-}
 footer {
     background-color: rgb(236, 233, 229);
 }

@@ -51,25 +51,22 @@ i{
     color: rgb(12, 9, 180);
 }
 
-.clear {
+/* Backgrounds de description */
+.clear{
     background-image:url(../assets/img/clear.jpg);
 }
-.rain {
+.rain{
     background-image:url(../assets/img/pluie.jpg);
 }
-
-.clouds {
+.clouds{
     background-image:url(../assets/img/nuages.jpg);
 }
-
-.snow {
+.snow{
     background-image:url(../assets/img/snow.jpg);
 }
-
-.mist {
+.mist{
     background-image:url(../assets/img/mistjpg);
 }
 .thunderstorm{
     background-image:url(../assets/img/orage.jpg);
 }
-
