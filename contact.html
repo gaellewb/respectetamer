@@ -84,16 +84,62 @@
             </div>
         </nav>
     </header>
-    <main >
-        <div class="m-4 p-5">
-            <div class="text-center">
-                <h1 class="bigTitle mb-4">Work in progress</h1>
-            </div>
-            <div class="text-center">
-                <video class="videoSable" src="assets/video/pageConstruction.mp4" muted loop autoplay height="100px"></video>
-            </div>
+    <main>
+
+        <div class="container fondContact">
+            <header>
+                <h1 class="grosTitreCarre text-center mb-4 p-4">Contactez-nous</h1>
+
+                <div class="mb-4 d-flex justify-content-center">
+                    <div class="socialContact">
+                        <a href="#" class="encercle"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                    </div>
+                    <div>
+                        <a href="#" class="encercle"><i class="fa-brands fa-instagram fa-xl"></i></a> 
+                    </div>
+                    <div>
+                        <a href="#" class="encercle"><i class="fa-brands fa-twitter fa-xl"></i></a> 
+                    </div>
+                </div>
+            </header>
+            <form action="" class="row formContact">
+                <div class="mb-3 col-12 offset-md-2 col-md-4">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nom" required>
+                </div>
+                <div class="mb-3 col-12 col-md-4">
+                    <label for="firstName" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Prénom" required>
+                </div>
+                <div class="mb-3 col-12 offset-md-2 col-md-8">
+                    <label for="email2" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email2" placeholder="Email" required>
+                </div>
+                <div class="mb-3 col-12 offset-md-2 col-md-8">
+                    <label for="subject" class="form-label">Objet</label>
+                    <select class="form-select" aria-label="Default select example" id="subject">
+                        <option selected placeholder="">Sélectionner l'objet</option>
+                        <option value="1">Bénévolat</option>
+                        <option value="2">Organiser un nettoyage de plage</option>
+                        <option value="3">Besoin d'aide pour un évènement</option>
+                        <option value="4">Autre</option>
+                    </select>
+                </div>
+                <div class="mb-3 col-12 offset-md-2 col-md-8">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" class="form-control" id="message"  required placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="grosBouton mb-5 offset-4 col-4 offset-lg-5 col-lg-2">Envoyer</button>
+            </form>
         </div>
-        
+
+
+
+
+
+
+
+
     </main>
     <footer>
         <hr>
@@ -123,24 +169,31 @@
                         <a href="contact.html">Contact</a>
                     </div>
                     <div class="col-2 four">
-                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl social"></i></a>
                     </div>
                     <div class="col-2 five">
-                        <a href=""><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram fa-xl social"></i></a>
                     </div>                
                     <div class="col-2 six">
-                        <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter fa-xl social"></i></a>
                     </div>
-
+                    <form action="">
                     <div class="col-12 mt-2 mb-1 seven text-center">
                         <label for="email">- Inscription à la Newsletter -</label>                 
                     </div>
                     <div class="col-12 mb-2 text-center height">
-                        <input type="email" name="email" id="email" placeholder="votre email">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="votre email" required>
+                    </div>
+                    <div class="mb-3 form-check text-center ten">
+                        <input type="checkbox" class="form-check-input" id="cocheNewsletter" required>
+                        <label class="form-check-label" for="cocheNewsletter">J'accepte de recevoir vos emails et confirme avoir pris connaissance de votre politique de confidentialité et mentions légales.</label>
                     </div>
                     <div class="col-12 text-center nine">
-                        <input class="petitBouton" type="submit" value="S'inscrire" name="email">
+                        <button class="petitBouton" type="submit" name="email">S'inscrire</button>
                     </div>
+                    </form>
+
+                </div>
                 </div>
 
                 <hr>

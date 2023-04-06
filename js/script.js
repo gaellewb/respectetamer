@@ -8,21 +8,36 @@ window.addEventListener('scroll', apparationTexte)
     // console.log('defilement détécté');
 
 let appear = document.querySelector('.appear');
-let appear2 = document.querySelector('.appear2');
+// let exist = oElementHTML.classList.contains('appear');
 let hauteur;
 
     function apparationTexte(){
         hauteur = document.documentElement.scrollTop;
         // console.log(hauteur, 'nombre de pixels depuis le haut de la page');
 
-        if (hauteur > 280) {
-            // console.log('affichage du texte');
-            appear.classList.add('appear-visible');
+        if (document.querySelector('.appear')){
+            if (hauteur > 280) {
+                // console.log('affichage du texte');
+                appear.classList.add('appear-visible');
+            }
         }
     };
 
 
     
+// Apparition de la PopUp 
+// let popUp = document.getElementById('cookiePopup');
+// // Qd l'utilisateur clique sur accepter :
+// document.getElementById('acceptCookie').addEventListener('click', function(){
+//     // console.log('bouton cliqué');
+// });
+
+
+
+
+
+
+
 
 // PAGE AGENDA -----------------------------------
 

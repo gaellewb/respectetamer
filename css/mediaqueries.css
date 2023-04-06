@@ -8,9 +8,9 @@
         display :block
     }
 
-/* Footer ------------------------------ */
+/* FOOTER ------------------------------ */
     .copyright {
-        /* pour l'afficher sur une seule ligne */
+    /* pour l'afficher sur une seule ligne */
         display: inline-block;
     }
 
@@ -19,7 +19,6 @@
         grid-template-columns: auto auto 30% auto auto auto;
         grid-template-rows: 50px 50px 50px 50px 30px;
     }
-
     .one {
         width: 100%;
         grid-column: 1;
@@ -27,7 +26,6 @@
         text-align: center;
         align-self: end;
     }
-
     .two {
         width: 100%;
         grid-column: 2;
@@ -64,7 +62,6 @@
         text-align: start;
         align-self: end;
     }
-
     .seven {
         grid-column: 3;
         grid-row: 1;
@@ -79,17 +76,24 @@
     }
     .nine {
         grid-column: 3;
+        grid-row: 4;
+    /* align-self: end; */
+        text-align: end;
+    }
+    .ten {
+        grid-column: 3;
         grid-row: 3;
     }
 
-/* Page en Construction */
+/* PAGE EN CONSTRUCTION */
     .videoSable {
         height: 250px;
     }
 
-/* Page Contact */
+/* PAGE AGENDA */
     #inputCity {
         width: 100%;
     }
+
 }
 

@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 /* !important pour passer par dessus les classes de Bootstrap */
     text-decoration: none!important;
     color: #222;
@@ -58,6 +57,7 @@
     font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
+    border: none!important;
 }
 
 .grosBouton:hover {
@@ -73,6 +73,7 @@
     font-size: 1rem;
     text-align: center;
     transition: 0.2s;
+    border: none!important;
 }
 
 .petitBouton:hover {
@@ -97,10 +98,11 @@
     transition: 0.5s;
 }
 
-a, .fa-brands {
+a, .social {
     color: rgb(28, 129, 168);
 }
 
+/* FOOTER --------------------------- */
 .squelette, .copyright{
     display: none;
 }
@@ -109,11 +111,15 @@ a, .fa-brands {
     font-size: small;
 }
 
-.fa-brands {
+.ten {
+    font-size: x-small;
+}
+
+.social {
     transition: 0.3s;
 }
 
-.fa-brands:hover {
+.social:hover {
     color: rgb(12, 9, 180);
 }
 
@@ -121,8 +127,63 @@ footer {
     background-color: rgb(236, 233, 229);
 }
 
+/* #cookiePopup {
+    background-color: rgb(28, 129, 168);
+    position: absolute;
+    font-size: 14px;
+    width: 70vw;
+    max-width: 42.85em;
+    box-shadow: 0 0 2em rgba (5, 0, 31, 0.15);
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+}
+
+#cookiePopup img {
+    display: block;
+    width: 3.75em;
+    transform: translateZ(0);
+    position: relative;
+    margin: auto;
+}
+
+#cookiePopup p {
+    text-align: center;
+    margin: 1.4em 0;
+}
+
+#cookiePopup button {
+    background-color: rgb(236, 233, 229);
+    border: none;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+} */
+/* 
+#cookiePopup a {
+    color: ;
+} */
+
+/* .hide {
+    visibility: hidden;
+    bottom: 0;
+    right: 2em;
+}
+
+.show {
+    visibility: visible;
+    bottom: 2em;
+    right: 2em;
+} */
+
+
 /* PAGE AGENDA ------------------ */
-.moisEvenement {
+.grosTitreCarre {
     font-weight: 800;
     font-size:xx-large;
     color: rgb(12, 9, 180);
@@ -144,4 +205,51 @@ footer {
     text-align: center;
     font-family: 'BadScript', sans-serif;
     background-color: rgb(236, 233, 229);
+}
+
+/* PAGE CONTACT --------------------*/
+.fondContact {
+    background-image: url(../assets/img/fond-contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* height: 100vh; */
+}
+
+.encercle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(28, 129, 168);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    transition: 0.3s;
+    margin: 0 20px;
+}
+
+/* .encercle.fa-brands:hover {
+    color: rgb(28, 129, 168);
+} */
+.encercle:hover {
+    background-color: rgba(28, 129, 168, 0.616);
+}
+
+.encercle i {
+    color: rgb(12, 9, 180); 
+}
+
+.encercle i:hover {
+    color: white;
+}
+
+.formContact label {
+    font-weight: 700;
+    font-size: larger;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.719);
+}
+
+textarea {
+    resize: none;
 }
