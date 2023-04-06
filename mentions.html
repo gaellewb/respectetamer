@@ -301,24 +301,30 @@
                         <a href="contact.html">Contact</a>
                     </div>
                     <div class="col-2 four">
-                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl social"></i></a>
                     </div>
                     <div class="col-2 five">
-                        <a href=""><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram fa-xl social"></i></a>
                     </div>                
                     <div class="col-2 six">
-                        <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter fa-xl social"></i></a>
                     </div>
 
-                    <div class="col-12 mt-2 mb-1 seven text-center">
-                        <label for="email">- Inscription à la Newsletter -</label>                 
-                    </div>
-                    <div class="col-12 mb-2 text-center height">
-                        <input type="email" name="email" id="email" placeholder="votre email">
-                    </div>
-                    <div class="col-12 text-center nine">
-                        <input class="petitBouton" type="submit" value="S'inscrire" name="email">
-                    </div>
+                    <form action="">
+                        <div class="col-12 mt-2 mb-1 seven text-center">
+                            <label for="email">- Inscription à la Newsletter -</label>                 
+                        </div>
+                        <div class="col-12 mb-2 text-center height">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="votre email" required>
+                        </div>
+                        <div class="mb-3 form-check text-center ten">
+                            <input type="checkbox" class="form-check-input" id="cocheNewsletter" required>
+                            <label class="form-check-label" for="cocheNewsletter">J'accepte de recevoir vos emails et confirme avoir pris connaissance de votre politique de confidentialité et mentions légales.</label>
+                        </div>
+                        <div class="col-12 text-center nine">
+                            <button class="petitBouton" type="submit" name="email">S'inscrire</button>
+                        </div>
+                    </form>
                 </div>
 
                 <hr>
