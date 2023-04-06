@@ -23,11 +23,7 @@ let apiCall = function (city) {
             document.querySelector('#humidity').innerHTML = "<i class='fas fa-tint'></i>" + humidite + ' %';
             document.querySelector('#wind').innerHTML = "<i class='fas fa-wind'></i>" + Math.round(vent) + ' km/h';
             document.querySelector('.description').innerHTML = capitalize(description);
-// le problème du background vient de là, ne marche que avec body :
-            // document.body.className = (condition.toLowerCase());
-            // document.querySelector('.monFond').className = condition.toLowerCase();
-            // document.querySelector('.monFond').classList.remove(condition.toLowerCase());
-            // document.querySelector('.monFond').classList.add(condition.toLowerCase());
+            document.querySelector('.monFond').classList.remove('clear', 'rain', 'clouds', 'snow', 'mist', 'thunderstorm');
             document.querySelector('.monFond').classList.add(condition.toLowerCase());
             })
         )
@@ -41,7 +37,5 @@ let apiCall = function (city) {
         apiCall(ville);
     });
 
-
-
 // Appel par défaut au chargement de la page
-apiCall('paris');
+apiCall('toulon');
