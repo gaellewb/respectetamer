@@ -84,21 +84,52 @@
     font-size: 2rem;
     color: rgb(28, 129, 168);
     padding: 0 20px;
+}
 
+.card-text{
+    text-align: justify;
 }
 
 .appear {
     opacity: 0;
     transform: translateX(-300px);
 }
-
 .appear-visible {
     opacity: 1;
     transform: translateY(0);
     transition: 0.5s;
 }
 
+.appear2 {
+    opacity: 0;
+    transform: translateY(-250px);
+}
+.appear-visible2 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.5s;
+}
+
+
 a, .social {
+    color: rgb(28, 129, 168);
+}
+
+.articleEncercle {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+a.articleEncercle:hover {
+    opacity: 50%;
+}
+
+a.grosTitreCarre:hover {
     color: rgb(28, 129, 168);
 }
 

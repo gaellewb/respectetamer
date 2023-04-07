@@ -4,11 +4,11 @@
         font-size: 5rem;
     }
 
+    /* FOOTER ------------------------------ */
+
     .squelette {
         display :block
     }
-
-/* FOOTER ------------------------------ */
     .copyright {
     /* pour l'afficher sur une seule ligne */
         display: inline-block;

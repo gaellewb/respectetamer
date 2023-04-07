@@ -8,6 +8,7 @@ window.addEventListener('scroll', apparationTexte)
     // console.log('defilement détécté');
 
 let appear = document.querySelector('.appear');
+let appear2 = document.querySelector('.appear2');
 // let exist = oElementHTML.classList.contains('appear');
 let hauteur;
 
@@ -19,6 +20,12 @@ let hauteur;
             if (hauteur > 280) {
                 // console.log('affichage du texte');
                 appear.classList.add('appear-visible');
+            }
+        }
+        if (document.querySelector('.appear2')){
+            if (hauteur > 900) {
+                // console.log('affichage du texte');
+                appear2.classList.add('appear-visible2');
             }
         }
     };
