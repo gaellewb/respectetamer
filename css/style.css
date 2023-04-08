@@ -13,7 +13,7 @@
     color: #222;
 }
 
-.myFont, .bigTitle {
+.myFont, .bigTitle, blockquote {
     font-family: 'BadScript', cursive, sans-serif;
 }
 
@@ -34,6 +34,10 @@
 
 .nav-link:hover, .dropdown-item:hover, .ouvert, a:hover, .bleuFonce {
     color: rgb(12, 9, 180);
+}
+
+blockquote {
+    font-size: 1.5rem;
 }
 
 /* Page d'accueil ---------------------------------------------*/
@@ -109,7 +113,6 @@
     transform: translateX(0);
     transition: 0.5s;
 }
-
 
 a, .social {
     color: rgb(28, 129, 168);
@@ -211,6 +214,19 @@ footer {
     bottom: 2em;
     right: 2em;
 } */
+
+/* PAGE NEWS ------------------ */
+/* .myCarousel {
+    width: 600px;
+    height: 500px;
+} */
+
+
+
+
+
+
+
 
 
 /* PAGE AGENDA ------------------ */
