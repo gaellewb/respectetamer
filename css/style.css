@@ -278,7 +278,7 @@ footer {
     background-color: rgba(28, 129, 168, 0.616);
 }
 
-.encercle i {
+.encercle i, .question i {
     color: rgb(12, 9, 180); 
 }
 
@@ -300,18 +300,21 @@ textarea {
 .question {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    border-bottom: 1px solid #777;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(28, 129, 168);;
 }
 
 .reponse {
-    color: #777;
-    background-color: #eee;
-    padding: 3rem;
+    background-color: rgb(236, 233, 229);
+    padding: 2rem;
     display: none;
+    text-align: justify;
 }
 
 .reponse-visible {
     display: block;
+}
+
+.bandeauMerPlastique {
+    height: 100px;
 }

@@ -53,13 +53,15 @@ function capitalize(str){
     return str[0].toUpperCase() + str.slice(1);
 };
 
-// PAGE FAQ -----------------------------------
+
+
+// PAGE FAQ -------------------------------------
 const questions = document.querySelectorAll('.question');
 // console.log(questions);
 
 // => Façon simplifiée pour écrir les fonctions anonymes, les fonctions fléchées sont des fonctions sans le mot clé function
 questions.forEach((item) => {
-    console.log('item');
+    // console.log('item');
 // Chaque élément du tableau est représenté par item
 // Maintenant chaque élément du tableau (item) est soumis à une action au clic
     item.addEventListener('click', function(){
@@ -71,7 +73,7 @@ questions.forEach((item) => {
         next.classList.toggle('reponse-visible');
 // Je cible et stocke l'icône de l'item
         icone = item.lastElementChild;
-        console.log(icone);
+        // console.log(icone);
         icone.classList.toggle('fa-circle-chevron-up');
     });
 });
