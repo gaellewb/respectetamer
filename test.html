@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo jQuery avancée</title>
+  <!-- Inclure la bibliothèque jQuery à partir d'un CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Démo jQuery avancée</h1>
+  <button id="toggleButton">Afficher/Masquer le paragraphe</button>
+  <button id="highlightButton">Mettre en surbrillance le texte</button>
+  <p id="texte" style="display:none;">Ceci est un paragraphe qui sera affiché ou masqué lorsque vous cliquez sur le bouton. Cliquez également sur le deuxième bouton pour mettre en surbrillance le texte.</p>
+
+  <script>
+    function init() {
+      // Sélectionner le bouton avec l'ID "toggleButton"
+      const toggleButton = $("#toggleButton");
+
+      // Sélectionner le bouton avec l'ID "highlightButton"
+      const highlightButton = $("#highlightButton");
+
+      // Ajouter un écouteur d'événement au bouton "toggleButton" pour afficher ou masquer le paragraphe lorsqu'il est cliqué
+      toggleButton.on("click", function() {
+        $("#texte").toggle();
+      });
+
+      // Ajouter un écouteur d'événement au bouton "highlightButton" pour mettre en surbrillance le texte du paragraphe lorsqu'il est cliqué
+      highlightButton.on("click", function() {
+        $("#texte").toggleClass("highlight");
+      });
+    }
+
+    // Attendre que le DOM soit prêt avant d'exécuter la fonction init
+    $(document).ready(init);
+  </script>
+</body>
+</html>

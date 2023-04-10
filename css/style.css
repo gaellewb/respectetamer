@@ -259,8 +259,6 @@ footer {
     background-image: url(../assets/img/fond-contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
-    /* height: 100vh; */
 }
 
 .encercle {
@@ -276,9 +274,6 @@ footer {
     margin: 0 20px;
 }
 
-/* .encercle.fa-brands:hover {
-    color: rgb(28, 129, 168);
-} */
 .encercle:hover {
     background-color: rgba(28, 129, 168, 0.616);
 }
@@ -299,4 +294,24 @@ footer {
 
 textarea {
     resize: none;
+}
+
+/* PAGE FAQ --------------------*/
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #777;
+}
+
+.reponse {
+    color: #777;
+    background-color: #eee;
+    padding: 3rem;
+    display: none;
+}
+
+.reponse-visible {
+    display: block;
 }
