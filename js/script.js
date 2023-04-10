@@ -31,20 +31,6 @@ let hauteur;
     };
 
 
-    
-// Apparition de la PopUp 
-// let popUp = document.getElementById('cookiePopup');
-// // Qd l'utilisateur clique sur accepter :
-// document.getElementById('acceptCookie').addEventListener('click', function(){
-//     // console.log('bouton cliqué');
-// });
-
-
-
-
-
-
-
 
 // PAGE AGENDA -----------------------------------
 

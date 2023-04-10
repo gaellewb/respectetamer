@@ -182,72 +182,10 @@ footer {
     background-color: rgb(236, 233, 229);
 }
 
-/* #cookiePopup {
-    background-color: rgb(28, 129, 168);
-    position: absolute;
-    font-size: 14px;
-    width: 70vw;
-    max-width: 42.85em;
-    box-shadow: 0 0 2em rgba (5, 0, 31, 0.15);
-    text-align: justify;
-    line-height: 1.8em;
-    padding: 2em 1.4em;
-    border-radius: 6px;
-    transition: all 0.5s ease-in;
+/* PAGE NEWS ------------------- */
+h2.card-title {
+    font-size: 1.2rem;
 }
-
-#cookiePopup img {
-    display: block;
-    width: 3.75em;
-    transform: translateZ(0);
-    position: relative;
-    margin: auto;
-}
-
-#cookiePopup p {
-    text-align: center;
-    margin: 1.4em 0;
-}
-
-#cookiePopup button {
-    background-color: rgb(236, 233, 229);
-    border: none;
-    font-size: 1.2em;
-    padding: 1em 1.4em;
-    display: block;
-    position: relative;
-    margin: auto;
-    border-radius: 5px;
-} */
-/* 
-#cookiePopup a {
-    color: ;
-} */
-
-/* .hide {
-    visibility: hidden;
-    bottom: 0;
-    right: 2em;
-}
-
-.show {
-    visibility: visible;
-    bottom: 2em;
-    right: 2em;
-} */
-
-/* PAGE NEWS ------------------ */
-/* .myCarousel {
-    width: 600px;
-    height: 500px;
-} */
-
-
-
-
-
-
-
 
 
 /* PAGE AGENDA ------------------ */
