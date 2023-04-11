@@ -62,6 +62,7 @@ blockquote {
     text-decoration: none;
     text-align: center;
     border: none!important;
+    transition: 0.4s;
 }
 .grosBoutonEnCours {
     padding: 15px;
@@ -72,11 +73,12 @@ blockquote {
     text-decoration: none;
     text-align: center;
     border: none!important;
+    transition: 0.4s;
 }
 
 .grosBouton:hover {
     background-color: rgba(28, 128, 168, 0.63);
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .petitBouton {
@@ -86,7 +88,7 @@ blockquote {
     color: white;
     font-size: 1rem;
     text-align: center;
-    transition: 0.2s;
+    transition: 0.3s;
     border: none!important;
 }
 
@@ -97,12 +99,19 @@ blockquote {
     color: white;
     font-size: 1rem;
     text-align: center;
-    transition: 0.2s;
+    transition: 0.3s;
     border: none!important;
 }
 
 .petitBouton:hover {
     background-color: rgba(28, 128, 168, 0.63);
+}
+.articleIndex {
+    transition: 0.3s;
+}
+
+.articleIndex:hover {
+    transition: 0.3s;
 }
 
 .secondTitle {
@@ -147,10 +156,13 @@ a, .social {
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
+    transition: 0.3s;
+
 }
 
 a.articleEncercle:hover {
     opacity: 50%;
+    transition: 0.2s;
 }
 
 a.grosTitreCarre:hover {
