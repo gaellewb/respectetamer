@@ -17,7 +17,7 @@
     .wrapper {
         display: grid;
         grid-template-columns: auto auto 30% auto auto auto;
-        grid-template-rows: 50px 50px 50px 50px 30px;
+        grid-template-rows: 50px 50px 50px 50px 20px;
     }
     .one {
         width: 100%;
@@ -94,6 +94,13 @@
     #inputCity {
         width: 100%;
     }
-
 }
 
+
+@media screen and (min-width:992px){
+/* J'enlève une ligne au grid et rétrécie la dernière ligne pour les écrans de plus 992px  */
+    .wrapper {
+        grid-template-rows: 50px 50px 50px 30px;
+
+    }
+}
