@@ -10,7 +10,6 @@
     padding: 0;
 /* !important pour passer par dessus les classes de Bootstrap */
     text-decoration: none!important;
-    color: #222;
 }
 
 .myFont, .bigTitle, blockquote {
@@ -28,7 +27,6 @@
 }
 
 .nav-item {
-    /* align-items: end; */
     padding: 0 18px;
 }
 
@@ -36,23 +34,7 @@
     color: rgb(12, 9, 180);
 }
 
-blockquote {
-    font-size: 1.5rem;
-}
-
-/* Page d'accueil ---------------------------------------------*/
-.myBg {
-    background: url(../assets/img/dessinClean1.jpg) no-repeat ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.bigTitle {
-    font-size: 4rem;
-}
-
+/* Boutons ---------------------------------------------*/
 .grosBouton {
     padding: 15px;
     background-color: rgb(28, 129, 168);
@@ -63,6 +45,10 @@ blockquote {
     text-align: center;
     border: none!important;
     transition: 0.4s;
+}
+.grosBouton:hover {
+    background-color: rgba(28, 128, 168, 0.63);
+    transition: 0.3s;
 }
 .grosBoutonEnCours {
     padding: 15px;
@@ -76,11 +62,6 @@ blockquote {
     transition: 0.4s;
 }
 
-.grosBouton:hover {
-    background-color: rgba(28, 128, 168, 0.63);
-    transition: 0.3s;
-}
-
 .petitBouton {
     padding:  2px 10px;
     background-color: rgb(28, 129, 168);
@@ -91,7 +72,9 @@ blockquote {
     transition: 0.3s;
     border: none!important;
 }
-
+.petitBouton:hover {
+    background-color: rgba(28, 128, 168, 0.63);
+}
 .petitBoutonEnCours {
     padding:  2px 10px;
     background-color: rgb(176, 179, 180);
@@ -103,13 +86,25 @@ blockquote {
     border: none!important;
 }
 
-.petitBouton:hover {
-    background-color: rgba(28, 128, 168, 0.63);
+/* Page d'accueil ---------------------------------------------*/
+.myBg {
+    background: url(../assets/img/dessinClean1.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
+
+.bigTitle {
+    font-size: 4rem;
+}
+
+blockquote {
+    font-size: 1.5rem;
+}
+
 .articleIndex {
     transition: 0.3s;
 }
-
 .articleIndex:hover {
     transition: 0.3s;
 }
@@ -157,9 +152,7 @@ a, .social {
     background-size: cover;
     align-self: center;
     transition: 0.3s;
-
 }
-
 a.articleEncercle:hover {
     opacity: 50%;
     transition: 0.2s;
@@ -170,6 +163,10 @@ a.grosTitreCarre:hover {
 }
 
 /* FOOTER --------------------------- */
+footer {
+    background-color: rgb(236, 233, 229);
+}
+
 .squelette, .copyright{
     display: none;
 }
@@ -188,10 +185,6 @@ a.grosTitreCarre:hover {
 
 .social:hover {
     color: rgb(12, 9, 180);
-}
-
-footer {
-    background-color: rgb(236, 233, 229);
 }
 
 /* PAGE NEWS ------------------- */
@@ -243,7 +236,6 @@ h2.card-title {
     transition: 0.3s;
     margin: 0 20px;
 }
-
 .encercle:hover {
     background-color: rgba(28, 129, 168, 0.616);
 }
