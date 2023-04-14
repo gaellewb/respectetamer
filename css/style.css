@@ -115,7 +115,7 @@ blockquote {
     padding: 0 20px;
 }
 
-.card-text{
+.card-text, .articleActualite{
     text-align: justify;
 }
 
@@ -190,6 +190,11 @@ footer {
 /* PAGE NEWS ------------------- */
 h2.card-title {
     font-size: 1.2rem;
+}
+
+.photoMarseille {
+    max-width: 200px;
+    margin: 10px;
 }
 
 /* PAGE AGENDA ------------------ */

@@ -85,6 +85,12 @@
         grid-row: 3;
     }
 
+/* PAGE ARTICLE 1 */
+    .photoMarseille {
+        max-width: 250px;
+        margin: 10px;
+    }
+
 /* PAGE EN CONSTRUCTION */
     .videoSable {
         height: 250px;
