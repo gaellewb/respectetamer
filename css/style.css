@@ -202,9 +202,8 @@ h2.card-title {
     background: url(../assets/img/dessinMerPolluee.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    height: 350px;
+    height: 300px;
 }
-
 
 .grosTitreCarre {
     font-weight: 800;
@@ -256,7 +255,6 @@ h2.card-title {
 .encercle i, .question i {
     color: rgb(12, 9, 180); 
 }
-
 .encercle i:hover {
     color: white;
 }
@@ -288,8 +286,4 @@ textarea {
 
 .reponse-visible {
     display: block;
-}
-
-.bandeauMerPlastique {
-    height: 100px;
 }

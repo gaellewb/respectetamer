@@ -5,7 +5,6 @@
     }
 
     /* FOOTER ------------------------------ */
-
     .squelette {
         display :block
     }
@@ -13,7 +12,6 @@
     /* pour l'afficher sur une seule ligne */
         display: inline-block;
     }
-
     .wrapper {
         display: grid;
         grid-template-columns: auto auto 30% auto auto auto;
@@ -65,19 +63,18 @@
     .seven {
         grid-column: 3;
         grid-row: 1;
-    /* aligneverticalement en bas */
+    /* aligne verticalement en bas */
         align-self: end;
     }
     .height {
         grid-column: 3;
         grid-row: 2;
-    /* aligneverticalement au milieu*/
+    /* aligne verticalement au milieu*/
         align-self: center;
     }
     .nine {
         grid-column: 3;
         grid-row: 4;
-    /* align-self: end; */
         text-align: end;
     }
     .ten {
@@ -100,13 +97,14 @@
     #inputCity {
         width: 100%;
     }
+    .bandeauAgenda {
+        height: 350px;
+    }
 }
-
 
 @media screen and (min-width:992px){
 /* J'enlève une ligne au grid et rétrécie la dernière ligne pour les écrans de plus 992px  */
     .wrapper {
         grid-template-rows: 50px 50px 50px 30px;
-
     }
 }
