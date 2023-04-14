@@ -198,6 +198,14 @@ h2.card-title {
 }
 
 /* PAGE AGENDA ------------------ */
+.bandeauAgenda {
+    background: url(../assets/img/dessinMerPolluee.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+
 .grosTitreCarre {
     font-weight: 800;
     font-size:xx-large;
